@@ -8,55 +8,15 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
     integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
 
   <link rel="stylesheet" href="styles.css" />
   <title>Web Design Mastery | Fitclub</title>
 
+  <link rel="shortcut icon" href="assets/LOGOTIPO JOÃO VICTOR - ÍCONE COLOR PNG.png" type="image/png">
+
+
   <style>
-    .whatsapp-btn-container {
-      position: fixed;
-      right: 30px;
-      opacity: 0;
-      bottom: -50px;
-      padding: 24px;
-      animation: fade-up 1000ms forwards;
-      animation-delay: 1000ms;
-    }
-
-    @keyframes fade-up {
-      100% {
-        bottom: 24px;
-        opacity: 1;
-      }
-    }
-
-    .whatsapp-btn-container .whatsapp-btn {
-      font-size: 48px;
-      color: #25d366;
-      display: inline-block;
-      transition: all 400ms;
-    }
-
-    .whatsapp-btn-container .whatsapp-btn:hover {
-      transform: scale(1.2);
-    }
-
-    .whatsapp-btn-container span {
-      position: absolute;
-      top: 0;
-      left: 4px;
-      font-family: "Roboto", sans-serif;
-      font-weight: bold;
-      color: #075e54;
-      transform: rotateZ(20deg) translateX(10px);
-      opacity: 0;
-      transition: all 400ms;
-    }
-
-    .whatsapp-btn-container .whatsapp-btn:hover+span {
-      transform: rotateZ(0deg) translateX(0px);
-      opacity: 1;
-    }
   </style>
 </head>
 
@@ -70,16 +30,16 @@
 
   <nav>
     <div class="nav__logo">
-      <a href="#"><img src="assets/LOGOTIPO JOÃO VICTOR PNG 02 COLOR.png" alt="logo" /></a>
+      <a href=""><img src="assets/LOGOTIPO JOÃO VICTOR PNG 02 COLOR.png" alt="logo" /></a>
     </div>
     <ul class="nav__links">
-      <li class="link"><a href="#">Home</a></li>
-      <li class="link"><a href="#">Program</a></li>
-      <li class="link"><a href="#">Service</a></li>
-      <li class="link"><a href="#">About</a></li>
-      <li class="link"><a href="#">Community</a></li>
+      <li class="link"><a href="">Home</a></li>
+      <li class="link"><a href="">Program</a></li>
+      <li class="link"><a href="">Service</a></li>
+      <li class="link"><a href="">About</a></li>
+      <li class="link"><a href="">Community</a></li>
     </ul>
-    <button class="btn">Join Now</button>
+    <button class="btn">Shape de sucesso</button>
   </nav>
 
   <div class="video-container">
@@ -93,13 +53,26 @@
     <div class="header__content">
       <span class="bg__blur"></span>
       <span class="bg__blur header__blur"></span>
-      <h4>BEST FITNESS IN THE TOWN</h4>
-      <h1><span>MAKE</span> YOUR BODY SHAPE</h1>
-      <p>
-        Unleash your potential and embark on a journey towards a stronger,
-        fitter, and more confident you. Sign up for 'Make Your Body Shape' now
-        and witness the incredible transformation your body is capable of!
+      <h4>HÁ QUANTO TEMPO VOCÊ ESTÁ TREINANDO SEM SENTIR EVOLUÇÃO?</h4>
+      <h1>EU SEI <span>O MOTIVO</span></h1>
+
+      <p style="text-align: justify;">
+        <i class="fa-solid fa-check"></i>
+        O seu treino atual não foi desenvolvido pensando na pura hipertrofia. Provável
+        que você esteja até mesmo
+        treinando por conta própria. E esse é um dos piores erros que você pode cometer.
+        <br>
+        <i class="fa-solid fa-check"></i>
+        A sua dieta não é personalizada pro seu objetivo e pras suas individualidades.
+        Ou você nem mesmo faz dieta. Só
+        come qualquer coisa e espera algum resultado.
+        <br>
+        <i class="fa-solid fa-check"></i>
+        Os hormônios do seu corpo estão desregulados, prejudicando o funcionamento
+        íntegro do seu metabolismo e
+        consequentemente a sua hipertrofia.
       </p>
+
       <button class="btn">Get Started</button>
     </div>
     <div class="header__image">
@@ -109,48 +82,48 @@
 
   <section class="section__container explore__container">
     <div class="explore__header">
-      <h2 class="section__header">EXPLORE OUR PROGRAM</h2>
-      <div class="explore__nav">
+      <h2 class="section__header">CONHEÇA NOSSO PROGRAMA</h2>
+      <!-- <div class="explore__nav">
         <span><i class="ri-arrow-left-line"></i></span>
         <span><i class="ri-arrow-right-line"></i></span>
-      </div>
+      </div> -->
     </div>
     <div class="explore__grid">
       <div class="explore__card">
-        <span><i class="ri-boxing-fill"></i></span>
-        <h4>Strength</h4>
+        <span><i class="fa-solid fa-clipboard-list"></i></i></span>
+        <h4>Ficha de Treino</h4>
         <p>
-          Embrace the essence of strength as we delve into its various
-          dimensions physical, mental, and emotional.
+          O planejamento será entregue dentro de 7 dias úteis após o envio dos dados acima e anamnese com fotos na
+          avaliação.
         </p>
-        <a href="#">Join Now <i class="ri-arrow-right-line"></i></a>
+        <a href="">Shape de sucesso <i class="ri-arrow-right-line"></i></a>
       </div>
       <div class="explore__card">
         <span><i class="ri-heart-pulse-fill"></i></span>
-        <h4>Physical Fitness</h4>
+        <h4>Avaliação Física Online</h4>
         <p>
           It encompasses a range of activities that improve health, strength,
           flexibility, and overall well-being.
         </p>
-        <a href="#">Join Now <i class="ri-arrow-right-line"></i></a>
+        <a href="">Shape de sucesso <i class="ri-arrow-right-line"></i></a>
       </div>
       <div class="explore__card">
-        <span><i class="ri-run-line"></i></span>
-        <h4>Fat Lose</h4>
+        <span><i class="fa-solid fa-users"></i></i></span>
+        <h4>Grupo de Dicas</h4>
         <p>
           Through a combination of workout routines and expert guidance, we'll
           empower you to reach your goals.
         </p>
-        <a href="#">Join Now <i class="ri-arrow-right-line"></i></a>
+        <a href="">Shape de sucesso <i class="ri-arrow-right-line"></i></a>
       </div>
       <div class="explore__card">
         <span><i class="ri-shopping-basket-fill"></i></span>
-        <h4>Weight Gain</h4>
+        <h4>Dieta e Ergogênico</h4>
         <p>
           Designed for individuals, our program offers an effective approach
           to gaining weight in a sustainable manner.
         </p>
-        <a href="#">Join Now <i class="ri-arrow-right-line"></i></a>
+        <a href="">Shape de sucesso<i class="ri-arrow-right-line"></i></a>
       </div>
     </div>
   </section>
@@ -162,14 +135,17 @@
       <img src="assets/class-2.jpg" alt="class" class="class__img-2" />
     </div>
     <div class="class__content">
-      <h2 class="section__header">THE CLASS YOU WILL GET HERE</h2>
+      <h2 class="section__header">A AULA QUE VOCÊ VAI TER AQUI</h2>
       <p>
-        Led by our team of expert and motivational instructors, "The Class You
-        Will Get Here" is a high-energy, results-driven session that combines
-        a perfect blend of cardio, strength training, and functional
-        exercises. Each class is carefully curated to keep you engaged and
-        challenged, ensuring you never hit a plateau in your fitness
-        endeavors.
+        Se tudo que você faz é por conta própria, é por isso que o seu shape não evolui.
+
+        Até quando você vai continuar pagando mensalidades da academia à toa?
+
+        Até quando você vai continuar gastando dinheiro com suplementos e hormônios que não vão fazer a mínima diferença
+        no seu shape porque você não tem planejamento?
+
+        Se o seu shape está estagnado e você não toma uma atitude, significa que você está satisfeito com o corpo que
+        tem.
       </p>
       <button class="btn">Book A Class</button>
     </div>
@@ -188,7 +164,7 @@
           <span><i class="ri-user-star-fill"></i></span>
           <div class="join__card__content">
             <h4>Personal Trainer</h4>
-            <p>Unlock your potential with our expert Personal Trainers.</p>
+            <p>Desbloqueie seu potencial com nossos Personal Trainers especializados.</p>
           </div>
         </div>
         <div class="join__card">
@@ -210,7 +186,7 @@
   </section>
 
   <section class="section__container price__container">
-    <h2 class="section__header">OUR PRICING PLAN</h2>
+    <h2 class="section__header">Nossos Planos</h2>
     <p class="section__subheader">
       Our pricing plan comes with various membership tiers, each tailored to
       cater to different preferences and fitness aspirations.
@@ -218,42 +194,8 @@
     <div class="price__grid">
       <div class="price__card">
         <div class="price__card__content">
-          <h4>Basic Plan</h4>
-          <h3>$16</h3>
-          <p>
-            <i class="ri-checkbox-circle-line"></i>
-            Smart workout plan
-          </p>
-          <p>
-            <i class="ri-checkbox-circle-line"></i>
-            At home workouts
-          </p>
-        </div>
-        <button class="btn price__btn">Join Now</button>
-      </div>
-      <div class="price__card">
-        <div class="price__card__content">
-          <h4>Weekly Plan</h4>
-          <h3>$25</h3>
-          <p>
-            <i class="ri-checkbox-circle-line"></i>
-            PRO Gyms
-          </p>
-          <p>
-            <i class="ri-checkbox-circle-line"></i>
-            Smart workout plan
-          </p>
-          <p>
-            <i class="ri-checkbox-circle-line"></i>
-            At home workouts
-          </p>
-        </div>
-        <button class="btn price__btn">Join Now</button>
-      </div>
-      <div class="price__card">
-        <div class="price__card__content">
-          <h4>Monthly Plan</h4>
-          <h3>$45</h3>
+          <h4>Plano Mensal</h4>
+          <h3>R$45</h3>
           <p>
             <i class="ri-checkbox-circle-line"></i>
             ELITE Gyms & Classes
@@ -275,7 +217,7 @@
             Personal Training
           </p>
         </div>
-        <button class="btn price__btn">Join Now</button>
+        <button class="btn price__btn">Shape de sucesso</button>
       </div>
     </div>
   </section>
@@ -316,44 +258,127 @@
     </div>
   </section>
 
+  <div class="container">
+    <main class="row">
+      <section class="col left">
+
+        <div class="contactTitle">
+          <h2>Faça sua inscrição</h2>
+          <p>Seus dados estão protegidos com total conformidade à LGPD, garantindo sua privacidade e segurança.</p>
+        </div>
+
+        <div class="contactInfo">
+
+          <div class="iconGroup">
+            <div class="icon">
+              <i class="fa-solid fa-phone"></i>
+            </div>
+            <div class="details">
+              <span>Celular</span>
+              <span style="font-size: 14px;">+55 31 98823-9899</span>
+            </div>
+          </div>
+
+          <div class="iconGroup">
+            <div class="icon">
+              <i class="fa-solid fa-envelope"></i>
+            </div>
+            <div class="details">
+              <span>Email</span>
+              <span style="font-size: 14px;">name.tutorial@gmail.com</span>
+            </div>
+          </div>
+
+          <div class="iconGroup">
+            <div class="icon">
+              <i class="fa-solid fa-location-dot"></i>
+            </div>
+            <div class="details">
+              <span>Endereço</span>
+              <span style="font-size: 14px;">R. Gov. Juscelino Kubitschek, 168, Coluna, MG</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="col right">
+
+        <!--  *******   Form Starts   *******  -->
+
+        <form class="messageForm" action="process_form.php" method="post">
+
+          <div class="inputGroup halfWidth">
+            <input type="text" name="name" required="required">
+            <label>Nome</label>
+          </div>
+
+          <div class="inputGroup halfWidth">
+            <input type="text" name="email" required="required">
+            <label>Email</label>
+          </div>
+
+          <div class="inputGroup fullWidth">
+            <input type="text" name="mobilePhone" required="required">
+            <label>Celular</label>
+          </div>
+
+          <div class="inputGroup fullWidth">
+            <input type="text" name="cpfCnpj" required="required">
+            <label>CPF</label>
+          </div>
+
+          <div class="">
+            <button class="btn">Enviar</button>
+          </div>
+
+        </form>
+
+      </section>
+
+
+    </main>
+  </div>
+
   <footer class="section__container footer__container">
     <span class="bg__blur"></span>
     <span class="bg__blur footer__blur"></span>
     <div class="footer__col">
       <div class="footer__logo"><img src="assets/LOGOTIPO JOÃO VICTOR PNG 02 COLOR.png" alt="logo" /></div>
       <p>
-        Take the first step towards a healthier, stronger you with our
-        unbeatable pricing plans. Let's sweat, achieve, and conquer together!
+        Dê o primeiro passo em direção a um shape incrível com nossos serviços imbatíveis. Vamos
+        suar, alcançar e conquistar juntos!
       </p>
-      <div class="footer__socials">
-        <a href="#"><i class="ri-facebook-fill"></i></a>
-        <a href="#"><i class="ri-instagram-line"></i></a>
-        <a href="#"><i class="ri-twitter-fill"></i></a>
-      </div>
+      <section class="col left">
+        <div class="socialMedia">
+          <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+          <a href=""><i class="fa-brands fa-instagram"></i></a>
+        </div>
+      </section>
     </div>
     <div class="footer__col">
       <h4>Company</h4>
-      <a href="#">Business</a>
-      <a href="#">Franchise</a>
-      <a href="#">Partnership</a>
-      <a href="#">Network</a>
+      <a href="">Business</a>
+      <a href="">Franchise</a>
+      <a href="">Partnership</a>
+      <a href="">Network</a>
     </div>
     <div class="footer__col">
       <h4>About Us</h4>
-      <a href="#">Blogs</a>
-      <a href="#">Security</a>
-      <a href="#">Careers</a>
+      <a href="">Blogs</a>
+      <a href="">Security</a>
+      <a href="">Careers</a>
     </div>
     <div class="footer__col">
       <h4>Contact</h4>
-      <a href="#">Contact Us</a>
-      <a href="#">Privacy Policy</a>
-      <a href="#">Terms & Conditions</a>
-      <a href="#">BMI Calculator</a>
+      <a href="">Contact Us</a>
+      <a href="">Privacy Policy</a>
+      <a href="">Terms & Conditions</a>
+      <a href="">BMI Calculator</a>
     </div>
   </footer>
   <div class="footer__bar">
-    Copyright © 2023 Web Design Mastery. All rights reserved.
+    Copyright © 2023 <a href="https://www.linkedin.com/in/lopes-giovani/" target="_blank">Giovani Lopes</a>. All rights
+    reserved.
   </div>
 </body>
 
