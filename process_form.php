@@ -12,7 +12,7 @@ $cpfCnpj = $_POST['cpfCnpj'];
 $response = $client->request('GET', 'https://sandbox.asaas.com/api/v3/customers', [
     'headers' => [
         'accept' => 'application/json',
-        'access_token' => '',
+        'access_token' => '$aact_YTU5YTE0M2M2N2I4MTliNzk0YTI5N2U5MzdjNWZmNDQ6OjAwMDAwMDAwMDAwMDAwNzM3OTM6OiRhYWNoX2M0M2ExZDQ0LWMwMzAtNDI2ZC04NGM3LTliZGFjNjI1Njg4MQ==',
     ],
 ]);
 
@@ -35,7 +35,7 @@ $response = $client->request('POST', 'https://sandbox.asaas.com/api/v3/customers
     ]),
     'headers' => [
         'accept' => 'application/json',
-        'access_token' => '',
+        'access_token' => '$aact_YTU5YTE0M2M2N2I4MTliNzk0YTI5N2U5MzdjNWZmNDQ6OjAwMDAwMDAwMDAwMDAwNzM3OTM6OiRhYWNoX2M0M2ExZDQ0LWMwMzAtNDI2ZC04NGM3LTliZGFjNjI1Njg4MQ==',
         'content-type' => 'application/json',
     ],
 ]);
@@ -53,7 +53,7 @@ $payment = $client->request('POST', 'https://sandbox.asaas.com/api/v3/payments',
     ]),
     'headers' => [
         'accept' => 'application/json',
-        'access_token' => '',
+        'access_token' => '$aact_YTU5YTE0M2M2N2I4MTliNzk0YTI5N2U5MzdjNWZmNDQ6OjAwMDAwMDAwMDAwMDAwNzM3OTM6OiRhYWNoX2M0M2ExZDQ0LWMwMzAtNDI2ZC04NGM3LTliZGFjNjI1Njg4MQ==',
         'content-type' => 'application/json',
     ],
 ]);

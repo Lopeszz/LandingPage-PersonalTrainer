@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
 
+html {
+  scroll-behavior: smooth;
+}
+
 :root {
   --primary-color: #111317;
   --primary-color-light: #1f2125;
@@ -190,7 +194,7 @@ section.left .socialMedia {
   width: 100%;
   font-size: 18px;
   padding: 2px 0px;
-  background-color: #111317;
+  background-color: var(--primary-color-light);
   color: #ddd;
   border: none;
   border-bottom: 2px solid #666;
@@ -368,6 +372,7 @@ a {
 body {
   font-family: "Poppins", sans-serif;
   background-color: var(--primary-color);
+  scroll-behavior: smooth; /* Faz a rolagem suave */
 }
 
 nav {
@@ -518,7 +523,7 @@ nav {
 .explore__grid {
   margin-top: 4rem;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 2rem;
 }
 

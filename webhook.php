@@ -7,6 +7,6 @@ $event = $arr['event'];
 
 // No caso de Pagamento Recebido...
 if ($event == "PAYMENT_RECEIVED") {
-    // Redireciona o cliente para a página desejada
+    // Redirecione o cliente para a página desejada
     header('Location: ' . 'index.html');
 }
