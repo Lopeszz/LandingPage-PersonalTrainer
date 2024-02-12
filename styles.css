@@ -661,10 +661,9 @@ nav {
 
 .price__grid {
   margin-top: 4rem;
-  /* display: grid; */
-  display: flex;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 0rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 3rem;
   justify-content: center;
 }
 
